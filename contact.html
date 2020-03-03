@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+<link rel ="stylesheet" type="text/css" href="mystyle.css">
+<link rel ="stylesheet" type="text/css" href="contact.css">
+</head>
+<body>
+
+<h1>Easy protein</h1>
+<div class="topnav">
+  <a href="index.html">Home</a>
+  <a href="products.html">product</a>
+  <a href="signuplogin.html">Signup/login</a>
+  <a href="about.html">About</a>
+  <a href="newoffer.html">new offers</a>
+	<a class="active" href="contact.html">contact form</a>
+</div>
+
+<h2>Welcome</h2>
+
+
+<div class="container">
+  <form action="action_page.php">
+
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label for="country">Country</label>
+    <select id="country" name="country">
+      <option value="England">England</option>
+      <option value="scotland">scotland</option>
+      <option value="Irland">Irland</option>
+    </select>
+
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+
+  </form>
+</div>

@@ -1,0 +1,155 @@
+ <!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+<link rel ="stylesheet" type="text/css" href="mystyle.css">
+</head>
+<body>
+
+<h1>Easy protein</h1>
+<p>Welcome to Easy protein our websites gives you all of the supplements that you need to be healthly
+  and a blanced healthly diet.</p>
+
+<div class="topnav">
+  <a class="active" href="index.html">Home</a>
+  <a href="products.html">product</a>
+  <a href="signuplogin.html">Signup/login</a>
+  <a href="about.html">About</a>
+  <a href="newoffer.html">new offers</a>
+  <a href="contact.html">contact form</a>
+</div>
+<h2 style="text-align:center">newest products</h2>
+
+<h2>Welcome</h2>
+
+
+<!-- Slideshow container -->
+<div class="slideshow-container">
+
+  <!-- Full-width images with number and caption text -->
+  <div class="mySlides fade">
+    <div class="numbertext">2 / 3</div>
+    <img src="resources/p2.jpg" style="width:100%">
+    <div class="text">muscle fuel, Buy Now</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">3 / 3</div>
+    <img src="resources/p3.jpg" style="width:100%">
+    <div class="text">Iron whey protein, Buy now</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">3 / 3</div>
+    <img src="resources/p4.jpg" style="width:100%">
+    <div class="text">checkout our mewst falvours</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">3 / 3</div>
+    <img src="resources/p5.jpg" style="width:100%">
+    <div class="text">check our new range of products , buy now for a cheap price</div>
+  </div>
+  <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+<!-- The dots/circles -->
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+</div>
+
+
+
+
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+// Next/previous controls
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+// Thumbnail image controls
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+}
+</script>
+
+<a href="file:///U:/IT%20folder/matt/unit28/test/products.html">Buy Now</a>
+
+<body>
+  <div id="wrap">
+  <div id="columns" class="columns_4">
+  <figure>
+<span><img id="img1" src="resources/whey2.PNG" ></span>
+  <figcaption>Impact whey</figcaption>
+    <span class="price">15.20</span>
+    <a class="button" href="file:///U:/IT%20folder/matt/unit28/test/products.html">Buy Now</a>
+  </figure>
+
+  <figure>
+<span><img id="img1" src="resources/cc1.PNG" ></span>
+  <figcaption>whey choclate</figcaption>
+    <span class="price">20.99</span>
+  <a class="button" href="file:///U:/IT%20folder/matt/unit28/test/products.html">Buy Now</a>
+  </figure>
+
+  <figure>
+<span><img id="img1" src="resources/cc2.PNG" ></span>
+  <figcaption>whey gold standard</figcaption>
+    <span class="price">35.60</span>
+  <a class="button" href="file:///U:/IT%20folder/matt/unit28/test/products.html">Buy Now</a>
+  </figure>
+
+  <figure>
+<span><img id="img1" src="resources/image1.PNG" ></span>
+  <figcaption>Arnold Iron mass</figcaption>
+    <span class="price">47.20</span>
+  <a class="button" href="file:///U:/IT%20folder/matt/unit28/test/products.html">Buy Now</a>
+  </figure>
+</div>
+</body>
+
+<!--Changing the number in the column_# class changes the number of columns-->
+
+<p><font size="10">Success is walking from failure to failure with no loss of enthusiasm</font></p>
+
+</body>
+
+<h2>GET LEAN & FIT
+TO GET THE PHYSIQUE YOU WANT, you will have to keep challenging yourself and in order for you
+to get the best result possibale you will have to maintaine a balenced healthly diet. #challenge yourself and
+and dont give up.</h2>
+</body>
+<h1>Click the videos below to find out more</h1>
+<h2>simple tips for nutrition</h2>
+<iframe width="500" height="300" src="https://www.youtube.com/embed/Umu4cxTPaC8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<iframe width="500" height="300" src="https://www.youtube.com/embed/YGGleRBn99Q" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<iframe width="500" height="300" src="https://www.youtube.com/embed/o9zCgPtsups" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<iframe width="500" height="300" src="https://www.youtube.com/embed/YPLopuFxz-0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</html>
